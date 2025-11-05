@@ -16,7 +16,7 @@ struct RainDrop {
 const int NUM_RAINDROPS = 180;
 std::vector<RainDrop> raindrops;
 
-// -------------------- Helpers --------------------
+// ipacircle ang cloudss
 void circle(float cx, float cy, float r, int segments) {
     glBegin(GL_POLYGON);
     for (int i = 0; i < segments; i++) {
@@ -225,3 +225,4 @@ int main(int argc, char** argv) {
     glutMainLoop();
     return 0;
 }
+
